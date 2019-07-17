@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.ProductMapper">
+  <resultMap id="BaseResultMap" type="com.example.demo.entity.Product">
+    <!--@mbg.generated generated on Wed Jul 10 22:30:58 CST 2019.-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="product_name" jdbcType="VARCHAR" property="productName" />
+    <result column="brand_id" jdbcType="INTEGER" property="brandId" />
+    <result column="num" jdbcType="DECIMAL" property="num" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="show_day" jdbcType="DATE" property="showDay" />
+    <result column="show_time" jdbcType="TIME" property="showTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Jul 10 22:30:58 CST 2019.-->
+    id, product_name, brand_id, num, create_time, update_time, show_day, show_time
+  </sql>
+</mapper>
