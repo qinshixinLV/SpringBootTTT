@@ -23,6 +23,8 @@
     </option>
     <option name="projectProfile">
       <ProjectProfile>
+        <option name="generateService" value="true" />
+        <option name="generateServiceInterface" value="true" />
         <option name="javaMapperPackage" value="com.example.demo.dao" />
         <option name="javaMapperPath" value="$PROJECT_DIR$/MybatisPlusTest1/src/main/java" />
         <option name="javaModelPackage" value="com.example.demo.entity" />
@@ -37,7 +39,9 @@
                   <option name="javaMapperPath" value="$PROJECT_DIR$/MybatisPlusTest1/src/main/java" />
                   <option name="javaModelPacakge" value="com.example.demo.entity" />
                   <option name="javaModelPath" value="$PROJECT_DIR$/MybatisPlusTest1/src/main/java" />
+                  <option name="javaServiceInterfacePackage" value="com.example.demo.service" />
                   <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/MybatisPlusTest1/src/main/java" />
+                  <option name="javaServicePackage" value="com.example.demo.service.impl" />
                   <option name="javaServicePath" value="$PROJECT_DIR$/MybatisPlusTest1/src/main/java" />
                   <option name="xmlPackage" value="com.example.demo.mapper" />
                   <option name="xmlPath" value="$PROJECT_DIR$/MybatisPlusTest1/src/main/resources" />
@@ -53,6 +57,36 @@
                 <TableGenerateConfig>
                   <option name="generatedKey" value="id" />
                   <option name="javaModelName" value="Brand" />
+                  <option name="moduleName" value="MybatisPlusTest1" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="test:man">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="Man" />
+                  <option name="moduleName" value="MybatisPlusTest1" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="test:product">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="Product" />
+                  <option name="moduleName" value="MybatisPlusTest1" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="test:user">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="User" />
                   <option name="moduleName" value="MybatisPlusTest1" />
                   <option name="useActualColumnName" value="false" />
                 </TableGenerateConfig>
