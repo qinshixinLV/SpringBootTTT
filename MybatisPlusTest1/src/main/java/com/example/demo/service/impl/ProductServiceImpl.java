@@ -1,6 +1,6 @@
 package com.example.demo.service.impl;
 
-import com.baomidou.mybatisplus.service.impl.ServiceImpl;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.example.demo.dao.ProductMapper;
 import com.example.demo.entity.Product;
 import com.example.demo.service.ProductService;
